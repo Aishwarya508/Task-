@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Student form </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+   
+        <h1 align="center"> Student <font color="cyan"> Form  </font>  </h1>
+
+        <form action="abcd.php" method="get" align="center"> 
+            <label > Enter User Name </label><br>
+            <input type="text"  name="user_name" size="30" placeholder=" Enter User name"> <br>
+
+            <label> Enter Last name</label> <br>
+            <input type="text" name="last_name" size="30" placeholder=" Enter Last name"> <br>
+
+            <label> Enter Password </label> <br>
+            <input type="password" name="user_pass" size="30" placeholder="Enter Password"> <br> 
+
+            <input type="hidden" name="hidden_name" id="a"> <br> 
+
+            <script type="text/javascript">
+                document.getElementById('w').value= new Date();
+            </script>
+            
+
+
+
+            <label> <h2> Gender </h2> </label> <br>
+            <label> Female </label>
+            <input type="radio" name="Gender" value="Female"><br>
+        
+            <label> Male </label>
+            <input type="radio" name="Gender" value="Male"><br>
+        
+            <label> Other </label>
+            <input type="radio" name="Gender" value="other"> <br>
+            <br> <br>
+
+            <label> <b>  Download Resume <b> </label> <br>
+            <input type="file" name="user_document"> <br> <br>
+
+
+
+
+            <label><h3>  Select your known languages</h3>  </label><br>
+            <label> HTML </label>
+            <input type="checkbox" name="languages_one" value="HTML"> <br>
+            <label> CSS </label>
+            <input type="checkbox" name="languages_secound" value="css"> <br>
+            <label> javascript </label>
+            <input type="checkbox" name="languages_third" value="javascript"> <br>
+            <label> PHP </label>
+            <input type="checkbox" name="languages_fourth" value="PHP"> <br>
+            <label> Oracle </label>
+            <input type="checkbox" name="languages_fifth" value="Oracle"> <br> <br>
+
+
+            <input type="submit" name="" value="login"> 
+
+            <input type="reset" name="" value="cancle">
+
+
+    
+        </form>
+  
+    
+    
+
+
+
+</body>
+</html>
